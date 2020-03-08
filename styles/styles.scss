@@ -1,0 +1,97 @@
+//// COMPILE COMMANDS
+// Requiere el instalador chocolatey y despues instalar con:
+// choco install sass
+// sass --watch styles.scss:styles.css
+
+
+
+/* Header variables */
+$header-height: 50px;
+$header-width: 100%;
+$header-font: Trebuchet MS,Verdana," sans-serif";
+$header-footer-color: rgba(111,226,176,1);
+
+/* Body variables */
+
+/* Footer variables */
+$footer-with: $header-width;
+$footer-height: 140px;
+
+
+* {
+    box-sizing: border-box;
+    font-family: $header-font;
+    margin: 0;
+    padding: 0;
+}
+
+.publish-content {
+    height: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    background-color:  rgba(76,76,76,1);
+    color: white;
+}
+
+header {
+    background-color: $header-footer-color;
+    width: $header-width;
+    height: $header-height;
+}
+
+header .header-content {
+    color: black;
+    background-color: $header-footer-color;
+    padding-top: 10px;
+    padding-left: 10px;
+    //padding-bottom: 40px;
+    padding-right: 30px;
+    text-decoration: none;
+    
+}
+
+#name {
+    color: black;;
+  }
+  
+
+footer {
+    background-color: $header-footer-color;
+    //height: $footer-height;
+    width: $header-width;
+    //color: white
+}
+
+footer .footer-content {
+    color: black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;  
+}
+
+.inside-body-content {
+    
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-right: 80px;
+    height: 370px;
+}
+
+.icon {
+    //position: absolute;
+    //float: right;
+    width: 7px;
+    height: 7px;
+
+    position: absolute;
+    display: block;
+  }
+
+#publish-text {
+    width: 40px;
+
+}
